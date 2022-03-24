@@ -1,0 +1,3 @@
+create a template called Template:ItemSprite and use this code:
+
+{{#invoke:ItemSprite|main|{{{Item}}}}}
