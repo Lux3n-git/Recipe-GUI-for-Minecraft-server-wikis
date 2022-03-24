@@ -1,0 +1,25 @@
+/* 
+the css needed for the GUI
+You can either put this in your MediaWiki:Common.css or in your custom Mediawiki css page
+*/
+
+
+@font-face {
+	font-family: minecraft;
+	src: url('/media/hydra/fonts/minecraft.eot?#iefix') format('embedded-opentype'),
+	     url('/media/hydra/fonts/minecraft.woff') format('woff'),
+	     url('/media/hydra/fonts/minecraft.ttf') format('truetype');
+}
+
+.item-slot {
+  background-image: url("https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/44/InvSprite.png");
+}
+.item-box {
+ background-image: url("https://static.wikia.nocookie.net/smpe-public/images/3/3d/Invslot.png");
+}
+.shapeless-icon {
+background-image: url("https://static.wikia.nocookie.net/minecraft_gamepedia/images/a/a9/Grid_layout_Shapeless.png/revision/latest");
+}
+.item-slot-box:hover{
+	background-color:rgba(255, 255, 255, 0.5)
+}
