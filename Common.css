@@ -3,6 +3,12 @@ the css needed for the GUI
 You can either put this in your MediaWiki:Common.css or in your custom Mediawiki css page
 */
 
+.animated > *:not(.animated-active),
+.animated-paused > *:not(.animated-active),
+.animated > .animated-subframe > *:not(.animated-active),
+.animated-paused > .animated-subframe > *:not(.animated-active) {
+	display: none;
+}
 
 @font-face {
 	font-family: minecraft;
