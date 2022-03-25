@@ -15,10 +15,7 @@ function getElement(item)
 	local it = (item == "Unknown" or item == "{{{Item}}}") and { pos = 1 } or data.ids[item]
 	if it == nil then 
 	local strit = tostring(item)
-	if string.match(strit, "Any") then 
-		return mw.html.create("div"):wikitext("[[File:Crafting " .. item .. ".gif|link=]]")
-	
-	elseif string.match(strit, "Blank") then
+	if string.match(strit, "Blank") then
 		return mw.html.create("div"):wikitext("[[File:CheatInvisible.png|Link=]]")
 	else
 	return mw.html.create("div"):wikitext("[[File:Crafting " .. item .. ".png|link=]]") 
