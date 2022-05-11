@@ -1,0 +1,1 @@
+<includeonly>{{#invoke:CraftingTable|smelting|Input={{{Input}}}|Fuel={{{Fuel}}}|Output={{{Output}}}|OA={{{OA}}}}}</includeonly>
