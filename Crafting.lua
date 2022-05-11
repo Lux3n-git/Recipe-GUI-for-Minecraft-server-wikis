@@ -67,7 +67,7 @@ local g = {}
 		return '<div class=\"animated item-slot-box\" style="width:32px; height:32px; top:'..toppx ..'px; left:'..leftpx ..'px; position:absolute>'..table.concat(images)..'</div>' --plan B for variables for the div CSS
 
 		end
-	function g.main(frame)
+	function g.crafting(frame)
 	local OA = --minecraft number next to sprite 
 		mw.html.create("div")
 		:addClass("item-amount")
