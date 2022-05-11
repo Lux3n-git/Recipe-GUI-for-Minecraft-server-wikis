@@ -1,0 +1,3 @@
+<includeonly>
+{{#invoke:Crafting|smithing|Input1={{{Input1}}}|Input2={{{Input2}}}|Output={{{Output}}}|OA={{{OA}}}}}
+</includeonly>
