@@ -1,11 +1,7 @@
 --[[Creates a instance of a minecraft toolbar item sprite either by picking from a table of 
 vanilla minecraft images or finds a image from the wiki with the prefix "Crafting".
-Program was created by https://github.com/MelnCat with additions by me.
+Program was created by https://github.com/MelnCat with additions by https://github.com/TripleLuxen
 ]]--
---Files Needed:
---InvSprite.lua
---common.css
---CheatInvisible.png
 
 local s = {}
 local data = mw.loadData("Module:InvSprite")
