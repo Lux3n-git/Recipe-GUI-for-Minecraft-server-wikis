@@ -1,9 +1,11 @@
 /*
 This would go into your MediaWiki:Common.js or into a custom Mediawiki Javascript page
 */
-$(document).ready(function() {
-    $('.loadwait').show();
-});
+window.tooltips_config = {
+	offsetX: -5,
+    offsetY: 20,
+    noCSS: true
+};
 mw.hook( 'wikipage.content' ).add( function( $wikipageContent ) {
 $( function() {
 /**
