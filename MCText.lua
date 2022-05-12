@@ -1,3 +1,7 @@
+--Credits to Tripleluxen
+--https://github.com/TripleLuxen
+--https://community.fandom.com/wiki/User:TripleLuxen
+
 local p = {}
 
 Colors = {
