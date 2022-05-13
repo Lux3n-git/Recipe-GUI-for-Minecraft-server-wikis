@@ -99,7 +99,7 @@ local g = {}
 			top = "-118px",
 			left = "14px",
 			}
-	if string.lower(frame.args["Shape"] or "") == "shapeless" then
+	if string.lower(frame.args["Shape"] or frame.args[1] or "") == "shapeless" then
 		div2:node(
 
 			mw.html.create("div")
